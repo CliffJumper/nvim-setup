@@ -1,3 +1,10 @@
+-- if true then
+--   return {}
+-- end
+
+-- return {
+--   { "KurtPreston/vimcolors" },
+-- }
 return {
-  { "KurtPreston/vimcolors" },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 }
