@@ -4,3 +4,10 @@ vim.filetype.add({
     tfvars = "terraform",
   },
 })
+
+vim.filetype.add({
+    extension = {
+        go = "go",
+        gomod = "go",
+    },
+})
