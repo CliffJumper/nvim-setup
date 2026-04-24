@@ -7,3 +7,8 @@ vim.keymap.set("n", "<leader>ca", function()
 end)
 
 vim.keymap.set('n', '<leader>cc', '<cmd>ClaudeCode<CR>', { desc = 'Toggle Claude Code' })
+
+vim.keymap.set('n', '<leader>bt', function()
+	require("vuffers").toggle()
+end)
+
