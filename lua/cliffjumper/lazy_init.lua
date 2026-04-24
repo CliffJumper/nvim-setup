@@ -20,3 +20,4 @@ require("lazy").setup({
     spec = "cliffjumper.lazy",
     change_detection = { notify = false }
 })
+
