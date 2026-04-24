@@ -20,3 +20,6 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80,120"
 
+vim.api.nvim_set_hl(0, "TreesitterContext", { bg = "#2c323c" })
+vim.api.nvim_set_hl(0, "TreesitterContextBottom", { underline = true, sp = 'Grey' })
+
